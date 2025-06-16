@@ -9,20 +9,20 @@ public class Ouvidoria {
     }
 
     public String receberSolicitacaoRh(String mensagem) {
-        return "A Ouvidoria agradece seu contato.\n"+
-                "A RH respondeu sua demanda conforme mensagem a seguir.\n" +
+        return "A Ouvidoria agradece seu contato."+
+                " O RH respondeu sua demanda conforme mensagem a seguir." +
                 ">>" + Rh.getInstancia().receberSolicitacao(mensagem);
     }
 
     public String receberFeedbackRh(String mensagem) {
-        return "A Ouvidoria agradece seu contato.\n"+
-                "A RH respondeu sua demanda conforme mensagem a seguir.\n" +
+        return "A Ouvidoria agradece seu contato."+
+                " O RH respondeu sua demanda conforme mensagem a seguir." +
                 ">>" + Rh.getInstancia().receberFeedback(mensagem);
     }
 
     public String receberRelatorioRh(String mensagem) {
-        return "A Ouvidoria agradece seu contato.\n"+
-                "A RH respondeu sua demanda conforme mensagem a seguir.\n" +
+        return "A Ouvidoria agradece seu contato."+
+                " O RH respondeu sua demanda conforme mensagem a seguir." +
                 ">>" + Rh.getInstancia().receberRelatorio(mensagem);
     }
 

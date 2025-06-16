@@ -6,7 +6,7 @@ public class Rh implements Setor{
     }
 
     public String receberSolicitacao(String mensagem) {
-        return "O RH rebedeu a solicitação: " + mensagem;
+        return "O RH recebeu a solicitação: " + mensagem;
     }
 
     public String receberFeedback(String mensagem) {
